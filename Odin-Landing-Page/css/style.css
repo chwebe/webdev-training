@@ -40,10 +40,8 @@ nav ul {
 .overview {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 40px;
     width: 100%;
-     
 }
 
 .overview-text {
@@ -82,7 +80,8 @@ nav ul {
 }
 
 .overview-image {
-   
+    display: flex;
+    justify-content: center;
     align-items: center;    
 }
 
@@ -103,7 +102,7 @@ main #information {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 40px;
+    
 }
 
 .box img {
@@ -126,7 +125,7 @@ main #information {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 80px 100px;
 }
 
 .quote q {
@@ -138,7 +137,7 @@ main #information {
 }
 
 .quote p {
-    text-align: right;
+    text-align: center;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -154,19 +153,42 @@ section {
 
 .signup-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: auto;
+    text-align: left;
+    margin: 100px auto;
     
 }
 
 .signup-border {
     display: flex;
-    background-color: #3882F6;
-    border-radius: 8px;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    width: 75%;
+    width: 800px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+    padding: 20px 40px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign-up-button:hover {
+    background-color: #2561c7;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 50px;
 }
